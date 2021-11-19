@@ -3,7 +3,7 @@ node{
  
    stage('SetEnv') { 
       git 'https://github.com/VysaliKamatham96/synkrepository.git'
-      mvnHome = tool 'MAVEn_HOME'
+      mvnHome = tool 'MAVEN_HOME'
 	   
    }
    
