@@ -2,8 +2,8 @@ node{
     def mvnHome
  
    stage('SetEnv') { 
-      git 'https://github.com/cltalam/Snykscriptbasedintegration.git'
-      mvnHome = tool 'MAVEN_HOME'
+      git 'https://github.com/VysaliKamatham96/synkrepository.git'
+      mvnHome = tool 'MyMaven'
 	   
    }
    
